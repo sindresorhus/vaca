@@ -32,7 +32,7 @@
     "rand"
   ],
   "dependencies": {
-    "cows": "^0.2.0",
+    "cows": "^1.0.0",
     "indent-string": "^2.1.0",
     "meow": "^3.7.0",
     "unique-random-array": "^1.0.0"
