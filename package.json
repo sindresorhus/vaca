@@ -1,6 +1,6 @@
 {
   "name": "vaca",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Get a random ASCII cow 🐮",
   "license": "MIT",
   "repository": "sindresorhus/vaca",
