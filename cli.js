@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var indentString = require('indent-string');
-var vaca = require('./');
+const meow = require('meow');
+const indentString = require('indent-string');
+const vaca = require('.');
 
 meow([
 	'Usage',
