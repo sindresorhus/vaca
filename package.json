@@ -1,44 +1,43 @@
 {
-  "name": "vaca",
-  "version": "1.0.0",
-  "description": "Get a random ASCII cow 🐮",
-  "license": "MIT",
-  "repository": "sindresorhus/vaca",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": "cli.js",
-  "engines": {
-    "node": ">=6.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "cows",
-    "cow",
-    "vaca",
-    "list",
-    "array",
-    "random",
-    "rand"
-  ],
-  "dependencies": {
-    "cows": "^1.0.0",
-    "indent-string": "^2.1.0",
-    "meow": "^3.7.0",
-    "unique-random-array": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "vaca",
+	"version": "1.0.0",
+	"description": "Get a random ASCII cow 🐮",
+	"license": "MIT",
+	"repository": "sindresorhus/vaca",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"cows",
+		"cow",
+		"vaca",
+		"list",
+		"array",
+		"random"
+	],
+	"dependencies": {
+		"cows": "^2.0.0",
+		"indent-string": "^3.2.0",
+		"meow": "^5.0.0",
+		"unique-random-array": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }

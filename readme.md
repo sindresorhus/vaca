@@ -15,10 +15,7 @@ $ npm install --global vaca
 ## Usage
 
 ```
-❯ vaca --help
-
-  Usage
-    $ vaca
+$ vaca
 ```
 
 

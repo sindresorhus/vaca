@@ -1,8 +1,8 @@
 import test from 'ava';
-import m from '.';
+import vaca from '.';
 
-test(t => {
-	const cow = m();
+test('main', t => {
+	const cow = vaca();
 	t.is(typeof cow, 'string');
 	t.true(cow.length > 0);
 });
