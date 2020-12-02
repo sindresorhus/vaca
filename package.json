@@ -4,10 +4,11 @@
 	"description": "Get a random ASCII cow 🐮",
 	"license": "MIT",
 	"repository": "sindresorhus/vaca",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
 	"bin": "cli.js",
 	"engines": {
