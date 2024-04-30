@@ -10,9 +10,10 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
-	"bin": "cli.js",
+	"type": "module",
+	"bin": "./cli.js",
 	"engines": {
-		"node": ">=6"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -32,13 +33,13 @@
 		"random"
 	],
 	"dependencies": {
-		"cows": "^2.0.0",
-		"indent-string": "^3.2.0",
-		"meow": "^5.0.0",
-		"unique-random-array": "^1.0.0"
+		"cows": "^3.0.0",
+		"indent-string": "^5.0.0",
+		"meow": "^13.2.0",
+		"unique-random-array": "^3.0.0"
 	},
 	"devDependencies": {
-		"ava": "*",
-		"xo": "*"
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
 	}
 }

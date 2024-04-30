@@ -1,5 +1,6 @@
-'use strict';
-const uniqueRandomArray = require('unique-random-array');
-const cows = require('cows');
+import uniqueRandomArray from 'unique-random-array';
+import cows from 'cows';
 
-module.exports = uniqueRandomArray(cows());
+const randomCow = uniqueRandomArray(cows());
+
+export default randomCow;

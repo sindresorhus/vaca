@@ -1,5 +1,5 @@
 import test from 'ava';
-import vaca from '.';
+import vaca from './index.js';
 
 test('main', t => {
 	const cow = vaca();

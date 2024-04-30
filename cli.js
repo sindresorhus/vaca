@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const indentString = require('indent-string');
-const vaca = require('.');
+import meow from 'meow';
+import indentString from 'indent-string';
+import vaca from './index.js';
 
 meow(`
 	Usage
 	  $ vaca
-`);
+`, {
+	importMeta: import.meta,
+});
 
 console.log('\n\n' + indentString(vaca(), 1, '\t') + '\n');

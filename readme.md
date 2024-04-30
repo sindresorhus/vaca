@@ -6,14 +6,14 @@
 
 ## Install
 
-```
-$ npm install --global vaca
+```sh
+npm install --global vaca
 ```
 
 ## Usage
 
-```
-$ vaca
+```sh
+vaca
 ```
 
 ## Related
