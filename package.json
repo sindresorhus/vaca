@@ -19,7 +19,7 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"index.js",
+		"main.js",
 		"cli.js"
 	],
 	"keywords": [

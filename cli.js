@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import meow from 'meow';
 import indentString from 'indent-string';
-import vaca from './index.js';
+import vaca from './main.js';
 
 meow(`
 	Usage
