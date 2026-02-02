@@ -12,16 +12,20 @@
 	},
 	"type": "module",
 	"bin": "./cli.js",
-	"main": "./main.js",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./main.js"
+	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
 	},
 	"files": [
 		"main.js",
-		"cli.js"
+		"cli.js",
+		"index.d.ts"
 	],
 	"keywords": [
 		"cli-app",
@@ -34,13 +38,13 @@
 		"random"
 	],
 	"dependencies": {
-		"cows": "^3.0.0",
+		"cows": "^3.0.1",
 		"indent-string": "^5.0.0",
-		"meow": "^13.2.0",
-		"unique-random-array": "^3.0.0"
+		"meow": "^14.0.0",
+		"unique-random-array": "^4.0.0"
 	},
 	"devDependencies": {
-		"ava": "^6.1.2",
-		"xo": "^0.58.0"
+		"ava": "^6.4.1",
+		"xo": "^1.2.3"
 	}
 }

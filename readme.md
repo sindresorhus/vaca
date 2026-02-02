@@ -7,10 +7,23 @@
 ## Install
 
 ```sh
-npm install --global vaca
+npm install vaca
 ```
 
 ## Usage
+
+```js
+import vaca from 'vaca';
+
+console.log(vaca());
+//=> '...'
+```
+
+### CLI
+
+```sh
+npm install --global vaca
+```
 
 ```sh
 vaca
